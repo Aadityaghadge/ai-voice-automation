@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Voice Agents & Business Automation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            animation: fadeInUp 1s ease;
+        }
+        
+        .hero p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            animation: fadeInUp 1.2s ease;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: fadeInUp 1.4s ease;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            color: #667eea;
+        }
+        
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+        
+        .service-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        
+        .service-card h3 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+        
+        .service-card p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .features {
+            background: #f8f9fa;
+        }
+        
+        .feature-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .feature-item {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .feature-item h4 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        
+        .cta-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        
+        .cta-section p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        
+        footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+            
+            .hero p {
+                font-size: 1.1em;
+            }
+            
+            .section-title {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1>🤖 AI Voice Agents & Automation</h1>
+        <p>Revolutionize Your Business with Intelligent Voice AI Solutions</p>
+        <a href="#contact" class="cta-button">Get Started Today</a>
+    </section>
+
+    <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services">
+            <div class="service-card">
+                <div class="service-icon">🎙️</div>
+                <h3>AI Voice Agents</h3>
+                <p>Deploy intelligent voice agents that handle customer interactions 24/7 with natural, human-like conversations.</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3>Business Automation</h3>
+                <p>Streamline operations with custom automation solutions that save time and reduce costs across your organization.</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">🎯</div>
+                <h3>Custom Integration</h3>
+                <p>Seamlessly integrate AI voice technology with your existing systems and workflows for maximum efficiency.</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us?</h2>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h4>✅ 24/7 Availability</h4>
+                    <p>Your AI agents never sleep, ensuring round-the-clock customer support</p>
+                </div>
+                
+                <div class="feature-item">
+                    <h4>💰 Cost Effective</h4>
+                    <p>Reduce operational costs while improving service quality</p>
+                </div>
+                
+                <div class="feature-item">
+                    <h4>🚀 Quick Deployment</h4>
+                    <p>Get your AI voice agents up and running in days, not months</p>
+                </div>
+                
+                <div class="feature-item">
+                    <h4>📊 Analytics & Insights</h4>
+                    <p>Track performance and gain valuable insights from every interaction</p>
+                </div>
+                
+                <div class="feature-item">
+                    <h4>🔒 Secure & Reliable</h4>
+                    <p>Enterprise-grade security and 99.9% uptime guarantee</p>
+                </div>
+                
+                <div class="feature-item">
+                    <h4>🎨 Customizable</h4>
+                    <p>Tailor voice agents to match your brand and specific needs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+        <h2>Ready to Transform Your Business?</h2>
+        <p>Join hundreds of businesses already using AI voice agents to scale their operations</p>
+        <a href="mailto:contact@yourcompany.com" class="cta-button">Contact Us Now</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 AI Voice Agents & Automation. All rights reserved.</p>
+        <p>Empowering businesses with intelligent automation solutions</p>
+    </footer>
+</body>
+</html>
